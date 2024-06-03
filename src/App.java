@@ -44,10 +44,10 @@ public class App {
         clinica.cadastrarPaciente(paciente4);
 
         clinica.registrarConsulta("cardiologista", paciente1);
-        clinica.registrarConsulta("cardiologista", paciente2);
-        clinica.registrarConsulta("cardiologista", paciente3);
-        clinica.registrarConsulta("cardiologista", paciente4);
+        clinica.registrarConsulta("dermatologista", paciente2);
+        clinica.registrarConsulta("Pediatra", paciente3);
+        clinica.registrarConsulta("Neurologista", paciente4);
 
-        System.out.println(clinica.getConsultas());
+        System.out.println(clinica.getConsultas().stream().findFirst());
     }
 }

@@ -1,18 +1,13 @@
-## Getting Started
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white&color=orange)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Clínica Java utilizando POO 
 
-## Folder Structure
+## Uma clínica fictícia para estudo de Java e POO
 
-The workspace contains two folders by default, where:
+A classe App é onde funciona toda a aplicação.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Há controles para verificar se a especialidade existe na clínica, se a idade é +18, entre outras.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Utilizei Stream e Collections API para deixar o mais legível possível, para isso, também, foi usado Lombok e algumas Expressões Lambda
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Preferi deixar os ToStrings no padrão do Lombok para evitar trabalho repetitivo.
