@@ -5,7 +5,7 @@ import br.clinica.modelo.Paciente;
 import br.clinica.modelo.Prontuario;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
        Clinica clinica = Clinica.getClinica();
 
 
